@@ -1,7 +1,8 @@
 body {
-    background-color: rgb(54, 22, 158);
+    background-color: lightblue;
 }
 
 h1 {
-    color: rgba(127, 75, 231, 0.868);
+    color: navy;
+    margin-left: 20px;
 }
