@@ -1,37 +1,20 @@
+
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 15px;
     padding: 20px;
 }
-
 
 .box {
-    flex: 1 1 300px;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-}
-
-header {
-    text-align: center;
-    padding: 20px;
-}
-
-.gallery {
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    border: 2px solid black;
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
-}
-
-.gallery img {
-    max-width: 100%;
-    height: auto;
-}
-
-footer {
-    text-align: center;
-    padding: 15px;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
 }
