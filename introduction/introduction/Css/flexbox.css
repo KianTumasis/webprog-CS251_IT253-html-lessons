@@ -1,20 +1,96 @@
 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f6f8;
+    color: #333333;
+}
+
+header {
+    text-align: center;
+    background-color: #1565c0;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #1565c0;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 15px;
-    padding: 20px;
+    background-color: dodgerblue;
+    padding: 15px;
+    border-radius: 8px;
 }
 
 .box {
+    background-color: #f1f1f1;
     width: 100px;
     height: 100px;
-    background-color: lightblue;
-    border: 2px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #1565c0;
+    color: white;
+}
+
+ul, ol {
+    padding-left: 40px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.gallery img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1565c0;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
 }
