@@ -1,8 +1,26 @@
+
 body {
-    background-color: lightblue;
+    background-color: #bbdefb;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #0d47a1;
 }
 
 h1 {
-    color: navy;
+    color: #0d47a1;
     margin-left: 20px;
+    background-color: #64b5f6;
+    padding: 20px;
+    border-radius: 10px;
 }
+
+h2 {
+    color: #1565c0;
+}
+
+p {
+    color: #123456;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
